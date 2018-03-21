@@ -1,0 +1,220 @@
+*{
+	padding:0;
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+	font-family: "Microsoft Yahei";
+}
+button{
+	width: 200px;
+	height: 200px;
+}
+.hiddle{
+	display: none;
+}
+.wrapper{
+	margin: 100px auto;
+	margin-bottom: 0px;
+	width: 540px;
+	height: 345px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.wrapper .my-top{
+	width: 100%;
+	height: 150px;
+	position:relative;
+	overflow: hidden;
+}
+.my-top .bg{
+	width: 100%;
+	height: 100%;
+}
+.my-top .bg li{
+	/* display: inline-block; */
+		color: #fff;
+	width: 100%;
+	height: 100%;
+}
+.my-top .bg li:nth-of-type(1){
+
+	background:url(../images/sunday1x.png) no-repeat;
+	background-size: 540px 150px;
+}
+.my-top .bg li:nth-of-type(2){
+	display: none;
+	background:url(../images/sunday1x.png) no-repeat;
+	background-size: 540px 150px;
+}
+.my-top .bg li:nth-of-type(3){
+	background:url(../images/sunday1x.png) no-repeat;
+	background-size: 540px 150px;
+	display: none;
+}
+.my-top .bg li:nth-of-type(4){
+	background:url(../images/sunday1x.png) no-repeat;
+	background-size: 540px 150px;
+	display: none;
+}
+.my-top .bg li:nth-of-type(5){
+	background:url(../images/sunday1x.png) no-repeat;
+	background-size: 540px 150px;
+	display: none;
+}
+
+.my-top .bg li .text-left{
+	position: absolute;
+	width: 300px;
+	top:44px;
+	left:22px; 
+}
+.my-top .bg li .text-left p{
+	display:inline; 
+	font-size: 14px;
+	
+}
+
+.my-top .bg li .text-left  span{
+	line-height: 38px;
+		float: left;
+	display:block; 
+	font-size: 38px;
+}
+.my-top .bg li .text-right{
+	position: absolute;
+	width:100px;
+	top:44px;
+	right:15px; 
+}
+.my-top .bg li .text-right p{
+	font-size: 14px;
+
+}
+.my-top .bg li .sun{
+	position: absolute;
+	width:100px;
+	height: 100px;
+	top: 0px;
+	right: 130px;
+	background:url(../images/sun.png) no-repeat;
+	background-size: 100px 100px;
+}
+.my-top .bg li .cloud{
+	position: absolute;
+	width:64px;
+	height: 32px;
+	top: 45px;
+	right:130px;
+	background:url(../images/maincloud.png) no-repeat;
+	background-size:contain;
+}
+.wrapper .my-bot{
+	width: 100%;
+	height: 195px;
+	background-color: #1AADAD;
+}
+.control-wea{
+	
+	margin: 0 auto;
+	width: 510px;
+	height: 150px;
+	
+}
+.control-2{
+	margin: 0 auto;
+	width: 510px;
+	height: 30px;
+	
+}
+.control-wea .weather{
+	width: 100%;
+	height: 150px;
+	
+	
+}
+.control-wea .weather li{
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	background-color: #30B3B4;
+}
+.control-wea .weather li p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "Microsoft Yahei";
+}
+.control-wea .weather li span{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	background-size: 36px 36px;
+}
+.control-wea .weather li:nth-of-type(1) span{
+		background-image:url(../images/1-0.png)  ;
+}
+.control-wea .weather li:nth-of-type(2) span{
+		background-image:url(../images/1-0.png)  ;
+}
+.control-wea .weather li:nth-of-type(3) span{
+	background-image:url(../images/1-0.png)  ;
+}
+.control-wea .weather li:nth-of-type(4) span{
+		background-image:url(../images/1-0.png)  ;
+}
+.control-wea .weather li:nth-of-type(5) span{
+		background-image:url(../images/1-0.png)  ;
+}
+.control-wea .weather li p:nth-of-type(1){
+	padding-top: 14px;
+}
+.control-2 .change{
+	width: 100%;
+	height: 30px;
+	
+		
+}
+.control-2 .change li{
+	color: #fff;
+	background-color: #74CDCD;
+	text-align: center;
+	width: 25%;
+	display:inline-block;
+	font-size: 14px;
+	line-height: 30px;
+	box-sizing:border-box;
+	border-left: 1px solid #30B3B4;
+}
+.control-2 .change li:nth-of-type(1){
+	border-left: 0px ;
+}
+
+.inp{
+	font-size: 16px;
+	width: 540px;
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+	color: #666666;
+}
+.inp select{
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 16px;
+	color: #666666;
+	width: 150px;
+	height: 32px;
+}
+.inp .btn{
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	position:absolute;
+	top:10px;
+	left:240px;
+	width: 60px;
+	height: 30px;
+	background-color:#32C35E;
+}
